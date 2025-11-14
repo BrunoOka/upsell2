@@ -10,11 +10,11 @@ import heroImage from "@assets/Captura de tela 2025-11-07 210037_1762560094001.p
 
 export default function FlashSale() {
   const handlePurchase = () => {
-    console.log("Purchase initiated");
+    window.location.href = "https://www.ggcheckout.com/checkout/v2/53RTh9KyFUdjNrBgzbtp";
   };
 
   const handleDecline = () => {
-    window.location.href = "https://downsell-eu8f.vercel.app/";
+    window.location.href = "https://ultimachance3.vercel.app/";
   };
 
   return (
